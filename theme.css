@@ -37,16 +37,15 @@
 
 	--interactive-accent-hover: rgb(80, 0, 0);
 	--input-shadow-hover: 0 0 0 1px rgba(255, 0, 0, 0.5);
-	--mono-rgb-100: rgb(255, 0, 0);
 
 	--caret-color: rgb(255, 0, 0);
 }
 
-img {
+.theme-dark img {
 	filter: grayscale(1) brightness(0.2) sepia(1) hue-rotate(-50deg)
 		saturate(10) contrast(1);
 }
 
-html {
+.theme-dark body {
 	border: 1px solid rgb(130, 0, 0);
 }
