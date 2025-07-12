@@ -17,3 +17,7 @@ OLED displays have a unique advantage. Each pixel is composed of individual red,
 
 Please provide feedback!
 queider@proton.me
+
+## License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
