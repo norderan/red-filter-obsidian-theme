@@ -32,15 +32,18 @@
 	--text-accent: red;
 	--input-shadow: 0 0 0 1px rgba(255, 0, 0, 0.5);
 
-	--background-modifier-border: rgba(255, 0, 0, 0.6);
+	--background-modifier-border: rgb(130, 0, 0);
 	--interactive-accent-hover: rgb(80, 0, 0);
 	--input-shadow-hover: 0 0 0 1px rgba(255, 0, 0, 0.5);
-
+	--background-modifier-hover: rgba(255, 0, 0, 0.2);
 	--mono-rgb-100: rgb(255, 0, 0);
-	--mono-rgb-0: rgb(0, 0, 0);
 }
 
 img {
 	filter: grayscale(1) brightness(0.2) sepia(1) hue-rotate(-50deg)
 		saturate(10) contrast(1);
+}
+
+html {
+	border: 1px solid rgb(130, 0, 0);
 }
