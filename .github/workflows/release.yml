@@ -8,6 +8,12 @@ on:
 jobs:
     build:
         runs-on: ubuntu-latest
+        # --- ADD THIS BLOCK ---
+        permissions:
+            contents: write # Grants permission to write to the repository content, which includes creating releases and uploading assets.
+            # Or, more specifically for releases:
+            # releases: write
+        # ----------------------
 
         steps:
             - uses: actions/checkout@v3
