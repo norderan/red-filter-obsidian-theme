@@ -33,10 +33,13 @@
 	--input-shadow: 0 0 0 1px rgba(255, 0, 0, 0.5);
 
 	--background-modifier-border: rgb(130, 0, 0);
+	--background-modifier-hover: rgba(255, 0, 0, 0.2);
+
 	--interactive-accent-hover: rgb(80, 0, 0);
 	--input-shadow-hover: 0 0 0 1px rgba(255, 0, 0, 0.5);
-	--background-modifier-hover: rgba(255, 0, 0, 0.2);
 	--mono-rgb-100: rgb(255, 0, 0);
+
+	--caret-color: rgb(255, 0, 0);
 }
 
 img {
